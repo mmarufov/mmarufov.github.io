@@ -1,9 +1,104 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Holy Trinity of Supercars</title> 
+    <style>
+        * {
+            font-family: Helvetica, sans-serif;
+        }
+        body {
+            background-color: #1a1a1a;
+            color: #e0e0e0;
+        }
+        #start {
+            font-size: 120px;
+            font-weight: bold;
+            color: whitesmoke;
+            text-align: center;
+            background-color: #333;
+            padding: 30px;
+            border-radius: 10px;
+        }
+        .car-title {
+            font-size: 40px;
+            font-weight: bold;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #444;
+        }
+        .porsche {
+            background-color: #5a5a5a;
+        }
+        .mclaren {
+            background-color: #D35400;
+        }
+        .ferrari {
+            background-color: #6D071A;
+        }
+        .car-description {
+            text-align: center;
+            font-size: 24px;
+            padding: 20px;
+            color: #cfcfcf;
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #222;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(255, 215, 0, 0.3);
+        }
+        img {
+            display: block;
+            margin: 20px auto;
+            max-width: 90%;
+            border-radius: 15px;
+            box-shadow: 0px 4px 15px rgba(255, 215, 0, 0.5);
+        }
+        .price {
+            font-weight: bold;
+            color: #d4af37;
+            font-size: 26px;
+        }
+        .quote {
+            font-size: 28px;
+            text-align: center;
+            color: #A8A9AD;
+            background-color: #222;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 900px;
+            margin: 40px auto;
+            box-shadow: 0px 4px 10px rgba(255, 215, 0, 0.3);
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
 <body>
-  <h1>Stepa</h1>
-  <p>Pora Dvigatsya bratishka!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
+    <header>
+        <h1 id="start">The Holy Trinity</h1>
+    </header>
+    <main>
+        <div>
+            <h2 class="car-title porsche">Porsche 918 Spyder</h2>
+            <img src="./2.png" alt="Porsche 918 Spyder">
+            <p class="car-description">A hybrid hypercar with a 4.6L V8 engine combined with electric motors, delivering 887 hp. It offers an exhilarating drive with cutting-edge technology. <br><span class="price">Price: $845,000</span></p>
+        </div>
+        <div>
+            <h2 class="car-title mclaren">McLaren P1</h2>
+            <img src="./1.png" alt="McLaren P1">
+            <p class="car-description">Powered by a twin-turbo V8 and an electric motor, the McLaren P1 produces 903 hp and features an advanced aerodynamic design for maximum performance. <br><span class="price">Price: $1,150,000</span></p>
+        </div>
+        <div>
+            <h2 class="car-title ferrari">Ferrari LaFerrari</h2>
+            <img src="./3.png" alt="Ferrari LaFerrari">
+            <p class="car-description">Ferrari’s first hybrid hypercar, combining a 6.3L V12 engine with an electric motor for a total output of 950 hp. It delivers breathtaking speed and Italian craftsmanship. <br><span class="price">Price: $1,500,000</span></p>
+        </div>
+        <h2 class="quote">
+            Машина — это лишь отражение амбиций, а не их замена. Пора двигаться Степа
+        </h2>
+    </main>
 </body>
-
 </html>
